@@ -12,7 +12,7 @@ a{
 	position: fixed;
 	z-index: 999;
 }
-.header-navigation{
+.navigation-container{
     width: 1080px;
     display: flex;
     margin: 0 auto;
@@ -34,7 +34,7 @@ a{
 	display: flex;
 	align-items: center;
 }
-.header-entry{
+.header-but-entry{
 	display: inline-block;
     width: 100px;
     height: 36px;
@@ -45,7 +45,7 @@ a{
     text-align: center;
     font-size: 15px;
 }
-.header-hire{
+.header-but-hire{
     display: inline-block;
     width: 100px;
     height: 36px;
@@ -57,7 +57,7 @@ a{
     font-size: 15px;
     margin-left: 20px;
 }
-.header-primary{
+.header-but-primary{
     display: inline-block;
     height: 36px;
 	background: #58a673;
@@ -70,42 +70,84 @@ a{
     line-height: 34px;
     margin-left: 20px;
 }
-.platform-background{
+.background-section{
 	height: 500px;
 	background-image: url(../image/gridbg.png);
 	padding-top: 120px;
 	text-align: center;
 }
-.platform-introduce{
+.container{
 	width: 1000px;
 	margin: 0 auto;
 }
 .platform-img{width: 1000px;}
-.platform-title{
+.platform-sub-title{
 	margin-bottom: 25px;
 	font-size: 18px;
     color: #b1b1b5;
     line-height: 20px;
 }
-.platform-h1{
+.platform-title{
 	margin-bottom: 30px;
 	font-size: 32px;
     color: #fff;
 }
-.platform-toppro{
+.platform-explain{
 	margin-bottom: 45px;
 	line-height: 30px;
     font-size: 15px;
     color: #58a673;
 }
-.platform-excellent span{
+.platform-cooperative-partner span{
 	background: #3a3b44;
     padding: 0 15px;
 }
-.platform-excellent{
+.platform-cooperative-partner{
 	line-height: 20px;
     color: #b1b1b5;
     margin-bottom: 20px;
     background: url(../image/line1000.png) no-repeat;
     background-position: 0 10px;
+}
+.resources-section{
+    height: 450px;
+    text-align: center;
+    padding: 70px 0;
+}
+.resources-list{
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.resources-img{
+    width: 200px;
+    height: 110px;
+}
+.resources-item{
+    width: 260px;
+    height: 170px;
+}
+.resources-title{
+    font-size:32px;
+    font-family:PingFangSC-Medium;
+   font-weight:500;
+   color:rgba(63,70,75,1);
+   line-height:22px;
+}
+.resources-sub-title{
+    font-size: 18px;
+    color: #999;
+    margin-top: 30px;
+    line-height: 20px;
+}
+.resources-name{
+    font-size: 18px;
+    color: #3f464b;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.resources-price{
+   font-size: 14px;
+    color: #999;
 }
